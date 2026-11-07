@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Karan Vasudev Katariya | Power Systems Researcher, IIT Kharagpur</title>
+  <meta name="description" content="PMRF Ph.D. candidate at IIT Kharagpur working on oscillations, protection and EMT modelling of power grids with high penetration of converter-interfaced resources.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">K. V. Katariya</a>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#deployment">Deployment</a>
+    <a href="#publications">Publications</a>
+    <a href="#honors">Honors</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+
+  <header class="hero">
+    <h1>Karan Vasudev Katariya</h1>
+    <p class="role">Prime Minister's Research Fellow &middot; Ph.D. Candidate, Power and Energy Systems</p>
+    <p class="aff">Department of Electrical Engineering, Indian Institute of Technology Kharagpur, India</p>
+    <p class="lead">I study how oscillations and protection behave in power grids dominated by inverter-based resources, and I build tools that grid operators actually run in their control rooms.</p>
+    <div class="links">
+      <a href="mailto:katariyakaranvasudev@kgpian.iitkgp.ac.in">Email</a>
+      <a href="https://scholar.google.com/citations?user=JeS9tnwAAAAJ&hl=en">Google Scholar</a>
+      <a href="#publications">Publications</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a Ph.D. candidate at IIT Kharagpur, working with Prof. Ashok Kumar Pradhan and supported by the Prime Minister's Research Fellowship. My thesis, due for submission in December 2026, covers the detection, classification, localization and mitigation of oscillations in power grids with high penetration of converter-interfaced resources.</p>
+    <p>My work spans electromagnetic transient (EMT) and phasor-domain modelling, synchrophasor (PMU) analytics, and real-time hardware-in-the-loop validation on Speedgoat and OPAL-RT. I am a graduate student member of IEEE and a member of the IEEE Power and Energy Society.</p>
+    <p>Currently I lead a Grid India (NRLDC) sponsored study on protection performance, online inertia estimation and synthetic inertia requirements for low-SCR renewable pockets of the Northern grid.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Oscillation source identification</h3>
+        <p>Matrix Pencil based frequency estimation and spatiotemporal mode-component ratios to localize forced oscillations from governors, exciters, cyclic loads and HVDC.</p>
+      </div>
+      <div class="card">
+        <h3>System integrity protection</h3>
+        <p>A PMU data-driven, three-stage scheme for controller-level isolation of sustained oscillations, validated on WECC test systems and Indian grid data.</p>
+      </div>
+      <div class="card">
+        <h3>Protection with IBRs</h3>
+        <p>How converter controls cause false distance-relay operation, and a scheme that tells power swings from faults on lines connecting inverter-based resources.</p>
+      </div>
+      <div class="card">
+        <h3>Grid-forming wind control</h3>
+        <p>Adaptive-droop and virtual-inertia control of PMSG wind turbines for frequency support and better damping, validated in real time on Speedgoat.</p>
+      </div>
+      <div class="card">
+        <h3>Data-center load oscillations</h3>
+        <p>ConceFT-based estimation of time-varying forced oscillation frequency injected by AI training loads, tested down to &minus;7 dB noise.</p>
+      </div>
+      <div class="card">
+        <h3>Inertia and weak grids</h3>
+        <p>Online inertia estimation from PMU data, and STATCOM and PLL behaviour at weak-grid solar plants.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="deployment">
+    <h2>Research in operation</h2>
+    <p>The Oscillation Source Identification (OSI) tool reads PMU data from the wide-area measurement system, detects sustained oscillations, estimates their modes and points operators to the source location.</p>
+    <div class="stats">
+      <div class="stat"><b>Dec 2022</b><span>live at NERLDC (81 PMUs)</span></div>
+      <div class="stat"><b>3500+</b><span>PMUs at NLDC since Oct 2026</span></div>
+      <div class="stat"><b>20+</b><span>events located in real time</span></div>
+    </div>
+    <p class="muted" style="margin-top:14px">Recognized with an achievement certificate from NLDC and NERLDC, Grid India. I also develop OSIPy, an open-source Python tool for oscillation analysis.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p class="muted">Journals, magazine, book chapter and conference papers. The complete and current list is on <a href="https://scholar.google.com/citations?user=JeS9tnwAAAAJ&hl=en">Google Scholar</a>.</p>
+    <div class="filters" id="pub-filters" role="group" aria-label="Filter publications"></div>
+    <ul class="pubs" id="pub-list"></ul>
+    <noscript><p>Please enable JavaScript to see the publication list, or visit Google Scholar.</p></noscript>
+  </section>
+
+  <section id="honors">
+    <h2>Honors and awards</h2>
+    <ul class="clean">
+      <li><b>Winner</b>, Ideas for India Innovation National Challenge, Sustainable and Resilient India category, The Times of India (2026)</li>
+      <li><b>Aruna &amp; Ram Gopal Khandelia Award for Innovation</b>, IIT Kharagpur (2025)</li>
+      <li><b>Dr. Ramamoorthy Best Paper Award</b> in Power Systems, 23rd NPSC, IIT Indore (2024)</li>
+      <li><b>Prime Minister's Research Fellowship</b>, Government of India (2023)</li>
+      <li><b>POSOCO Power System Award 2023</b>, IIT Delhi, best thesis in the master's category</li>
+      <li><b>Best Paper Award</b>, Recent Advances in Power Systems, 2nd Electric Power and Renewable Energy Conference, NIT Jamshedpur (2021)</li>
+      <li>Achievement certificate, NLDC and NERLDC, Grid India, for the oscillation source identification tool</li>
+    </ul>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching and service</h2>
+    <p>Teaching assistant at IIT Kharagpur for the HVDC and FACTS Simulation Lab, Power Systems Python Coding Lab, Power Systems Protection and its lab, Power System Dynamics and Control, Power Systems Simulation Lab, and undergraduate Electrical Technology courses. I also guide M.Tech students and research interns, and trained NERLDC system operators in DSATools (TSAT and SSAT) in 2022.</p>
+    <p><b>Peer review:</b> IEEE Transactions on Industry Applications; IEEE PES General Meeting; National Power Systems Conference; Indian National Academy of Engineering.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Department of Electrical Engineering, IIT Kharagpur, West Bengal, India<br>
+    <a href="mailto:katariyakaranvasudev@kgpian.iitkgp.ac.in">katariyakaranvasudev@kgpian.iitkgp.ac.in</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> Karan Vasudev Katariya</div>
+</footer>
+
+<script src="data/publications.js"></script>
+<script src="assets/site.js"></script>
+<script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>
