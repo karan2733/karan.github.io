@@ -1,6 +1,6 @@
 (function () {
   var pubs = (window.PUBLICATIONS || []).slice();
-  var labels = { all: "All", journal: "Journals", conference: "Conferences", magazine: "Magazine", chapter: "Book chapter" };
+  var labels = { all: "All", journal: "Journals", conference: "Conferences", magazine: "Magazine", chapter: "Book chapter", patent: "Patent" };
   var state = "all";
   var list = document.getElementById("pub-list");
   var filters = document.getElementById("pub-filters");
@@ -45,7 +45,7 @@
     list.innerHTML = out || "<li class=\"muted\">Nothing here yet.</li>";
   }
 
-  var types = ["all"].concat(["journal", "conference", "magazine", "chapter"].filter(function (t) {
+  var types = ["all"].concat(["journal", "conference", "magazine", "chapter", "patent"].filter(function (t) {
     return pubs.some(function (p) { return p.type === t; });
   }));
   types.forEach(function (t) {
