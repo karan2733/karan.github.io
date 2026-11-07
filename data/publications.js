@@ -1,9 +1,39 @@
 // Publication list. Edit this file to update the site; index.html renders it automatically.
 // type: journal | magazine | chapter | conference
-// status: "published" (default) | "accepted"
-// Papers under review are intentionally NOT listed here; add them with status "accepted"
-// only once they are accepted.
+// status: "published" (default) | "accepted" | "review" | "revision" | "submitted"
+// Under-review items need no year and are shown in their own group at the top.
 window.PUBLICATIONS = [
+  // ---------------- Under review / revision (no year; shown first) ----------------
+  // status: "revision" | "review" | "submitted". Change to "published" (and add year, doi) when done.
+  { type: "journal", status: "revision",
+    authors: "K. V. Katariya, A. Parija, D. R. Pullaguram, A. K. Pradhan",
+    title: "Frequency Independent Forced Oscillation Analysis for Synchronous Generator Control Devices using Singular Value Decompositions",
+    venue: "IEEE Transactions on Instrumentation and Measurement", note: "Revision 1" },
+  { type: "journal", status: "review",
+    authors: "K. V. Katariya, D. R. Pullaguram, A. K. Pradhan",
+    title: "Discriminating Power Swing and Fault for Protection of Transmission Lines Connecting Inverter-Based Resources",
+    venue: "IEEE Transactions on Power Delivery" },
+  { type: "journal", status: "review",
+    authors: "K. V. Katariya, D. R. Pullaguram, A. K. Pradhan",
+    title: "ConceFT-Based Non-Stationary Forced Oscillation Frequency Estimation in Power Systems with Data Center Loads",
+    venue: "IEEE Power Engineering Letters" },
+  { type: "journal", status: "review",
+    authors: "K. V. Katariya, A. Parija, D. R. Pullaguram, A. K. Pradhan",
+    title: "Spatially-Aware Weighted Condorcet Ensemble Framework for Classification of Natural and Forced Oscillations in Power Systems",
+    venue: "IEEE Transactions on Power Systems" },
+  { type: "journal", status: "review",
+    authors: "K. V. Katariya, D. R. Pullaguram, A. K. Pradhan",
+    title: "OSIPy: An Open-Source Python Tool for Detection, Mode Estimation, Source Identification, and Mitigation of Oscillations in Power Systems",
+    venue: "IEEE Transactions on Industry Applications" },
+  { type: "journal", status: "review",
+    authors: "K. V. Katariya, S. Kumar, D. R. Pullaguram, A. K. Pradhan",
+    title: "Enhancing National Grid Resilience and Economic Efficiency through Geographically Diversified Solar PV with a North-Eastern India Case Study using SCADA Data",
+    venue: "IEEE Systems Journal" },
+  { type: "conference", status: "submitted",
+    authors: "K. V. Katariya, S. Kumar, A. K. Pradhan",
+    title: "Latency Induced Antiphase Voltage Control as a Mechanism for Sustained STATCOM Oscillations at Weak Grid Solar Plants: Model Analysis and PMU Evidence from Actual Field PMU Data",
+    venue: "2027 IEEE PES General Meeting (PESGM)" },
+
   // ---------------- Journals ----------------
   { type: "journal", year: 2026,
     authors: "K. V. Katariya, M. Agnihotri, D. Pullaguram, A. K. Pradhan",
