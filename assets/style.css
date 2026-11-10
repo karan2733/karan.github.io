@@ -67,6 +67,10 @@ section h2 {
 .card h3 { margin: 0 0 6px; font-size: 16.5px; }
 .card p { margin: 0; font-size: 15.5px; color: var(--muted); }
 
+.card .meta { margin-top: 8px; font-size: 13.5px; }
+.card h3 a { text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+
 .stats { display: flex; flex-wrap: wrap; gap: 28px; margin: 6px 0 0; }
 .stat b { display: block; font-size: 28px; color: var(--accent); line-height: 1.1; }
 .stat span { font-size: 13.5px; color: var(--muted); }
